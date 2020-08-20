@@ -23,11 +23,11 @@
 
                 <div id="slider">
                     <figure>
-                        <img src="/img/kadir-celep-0GZMm8HxKy0-unsplash(1).jpg" />
-                        <img src="/img/vlad-kiselov-VTlL6eHa1QQ-unsplash(1).jpg" />
-                        <img src="/img/remi-boyer-EYwzNjH16O0-unsplash.jpg" />
-                        <img src="/img/roman-kraft-g_gwdpsCVAY-unsplash.jpg" />
-                        <img src="/img/vlad-kiselov-VTlL6eHa1QQ-unsplash(1).jpg" />
+                        <img src="" />
+                        <img src="" />
+                        <img src="" />
+                        <img src="" />
+                        <img src="" />
                     </figure>
                 </div>
 

@@ -49943,7 +49943,7 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-throw new Error("Module build failed (from ./node_modules/css-loader/index.js):\nModuleBuildError: Module build failed (from ./node_modules/sass-loader/dist/cjs.js):\nError: ENOENT: no such file or directory, open 'c:\\Bootcamp\\web\\Bootcamp\\Portfolio\\Final_project_Tara\\resources\\sass\\footer.scss'\n    at c:\\Bootcamp\\web\\Bootcamp\\Portfolio\\Final_project_Tara\\node_modules\\webpack\\lib\\NormalModule.js:316:20\n    at c:\\Bootcamp\\web\\Bootcamp\\Portfolio\\Final_project_Tara\\node_modules\\loader-runner\\lib\\LoaderRunner.js:367:11\n    at c:\\Bootcamp\\web\\Bootcamp\\Portfolio\\Final_project_Tara\\node_modules\\loader-runner\\lib\\LoaderRunner.js:203:19\n    at c:\\Bootcamp\\web\\Bootcamp\\Portfolio\\Final_project_Tara\\node_modules\\enhanced-resolve\\lib\\CachedInputFileSystem.js:85:15\n    at processTicksAndRejections (internal/process/task_queues.js:79:11)");
+// removed by extract-text-webpack-plugin
 
 /***/ }),
 
@@ -50031,21 +50031,21 @@ throw new Error("Module build failed (from ./node_modules/css-loader/index.js):\
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! c:\Bootcamp\web\Bootcamp\Portfolio\Final_project_Tara\resources\js\app.js */"./resources/js/app.js");
-__webpack_require__(/*! c:\Bootcamp\web\Bootcamp\Portfolio\Final_project_Tara\resources\sass\app.scss */"./resources/sass/app.scss");
-__webpack_require__(/*! c:\Bootcamp\web\Bootcamp\Portfolio\Final_project_Tara\resources\sass\homepage.scss */"./resources/sass/homepage.scss");
-__webpack_require__(/*! c:\Bootcamp\web\Bootcamp\Portfolio\Final_project_Tara\resources\sass\profilepage.scss */"./resources/sass/profilepage.scss");
-__webpack_require__(/*! c:\Bootcamp\web\Bootcamp\Portfolio\Final_project_Tara\resources\sass\profileedit.scss */"./resources/sass/profileedit.scss");
-__webpack_require__(/*! c:\Bootcamp\web\Bootcamp\Portfolio\Final_project_Tara\resources\sass\header.scss */"./resources/sass/header.scss");
-__webpack_require__(/*! c:\Bootcamp\web\Bootcamp\Portfolio\Final_project_Tara\resources\sass\footer.scss */"./resources/sass/footer.scss");
-__webpack_require__(/*! c:\Bootcamp\web\Bootcamp\Portfolio\Final_project_Tara\resources\sass\activities.scss */"./resources/sass/activities.scss");
-__webpack_require__(/*! c:\Bootcamp\web\Bootcamp\Portfolio\Final_project_Tara\resources\sass\register.scss */"./resources/sass/register.scss");
-__webpack_require__(/*! c:\Bootcamp\web\Bootcamp\Portfolio\Final_project_Tara\resources\sass\login.scss */"./resources/sass/login.scss");
-__webpack_require__(/*! c:\Bootcamp\web\Bootcamp\Portfolio\Final_project_Tara\resources\sass\categories.scss */"./resources/sass/categories.scss");
-__webpack_require__(/*! c:\Bootcamp\web\Bootcamp\Portfolio\Final_project_Tara\resources\sass\detail.scss */"./resources/sass/detail.scss");
-__webpack_require__(/*! c:\Bootcamp\web\Bootcamp\Portfolio\Final_project_Tara\resources\sass\create.scss */"./resources/sass/create.scss");
-__webpack_require__(/*! c:\Bootcamp\web\Bootcamp\Portfolio\Final_project_Tara\resources\sass\search.scss */"./resources/sass/search.scss");
-module.exports = __webpack_require__(/*! c:\Bootcamp\web\Bootcamp\Portfolio\Final_project_Tara\resources\sass\editactivity.scss */"./resources/sass/editactivity.scss");
+__webpack_require__(/*! c:\Bootcamp\web\Bootcamp\Portfolio\final_project_tara\resources\js\app.js */"./resources/js/app.js");
+__webpack_require__(/*! c:\Bootcamp\web\Bootcamp\Portfolio\final_project_tara\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! c:\Bootcamp\web\Bootcamp\Portfolio\final_project_tara\resources\sass\homepage.scss */"./resources/sass/homepage.scss");
+__webpack_require__(/*! c:\Bootcamp\web\Bootcamp\Portfolio\final_project_tara\resources\sass\profilepage.scss */"./resources/sass/profilepage.scss");
+__webpack_require__(/*! c:\Bootcamp\web\Bootcamp\Portfolio\final_project_tara\resources\sass\profileedit.scss */"./resources/sass/profileedit.scss");
+__webpack_require__(/*! c:\Bootcamp\web\Bootcamp\Portfolio\final_project_tara\resources\sass\header.scss */"./resources/sass/header.scss");
+__webpack_require__(/*! c:\Bootcamp\web\Bootcamp\Portfolio\final_project_tara\resources\sass\footer.scss */"./resources/sass/footer.scss");
+__webpack_require__(/*! c:\Bootcamp\web\Bootcamp\Portfolio\final_project_tara\resources\sass\activities.scss */"./resources/sass/activities.scss");
+__webpack_require__(/*! c:\Bootcamp\web\Bootcamp\Portfolio\final_project_tara\resources\sass\register.scss */"./resources/sass/register.scss");
+__webpack_require__(/*! c:\Bootcamp\web\Bootcamp\Portfolio\final_project_tara\resources\sass\login.scss */"./resources/sass/login.scss");
+__webpack_require__(/*! c:\Bootcamp\web\Bootcamp\Portfolio\final_project_tara\resources\sass\categories.scss */"./resources/sass/categories.scss");
+__webpack_require__(/*! c:\Bootcamp\web\Bootcamp\Portfolio\final_project_tara\resources\sass\detail.scss */"./resources/sass/detail.scss");
+__webpack_require__(/*! c:\Bootcamp\web\Bootcamp\Portfolio\final_project_tara\resources\sass\create.scss */"./resources/sass/create.scss");
+__webpack_require__(/*! c:\Bootcamp\web\Bootcamp\Portfolio\final_project_tara\resources\sass\search.scss */"./resources/sass/search.scss");
+module.exports = __webpack_require__(/*! c:\Bootcamp\web\Bootcamp\Portfolio\final_project_tara\resources\sass\editactivity.scss */"./resources/sass/editactivity.scss");
 
 
 /***/ })
