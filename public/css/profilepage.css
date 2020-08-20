@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.personalinfo {
+  background-color: #e3f0f0;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  text-align: center;
+  padding-top: 70px;
+  padding-bottom: 10px;
+  width: 90vw;
+  margin: auto;
+}
+
+.boxinfo {
+  margin-left: 19%;
+  margin-right: 25%;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+/*# sourceMappingURL=profilepage.css.map*/

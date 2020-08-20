@@ -1,0 +1,61 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);body {
+  margin: 0;
+}
+
+.detail {
+  background-color: white;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  padding: 30px;
+  width: 40vw;
+  margin: 10px auto 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+.detail--sub {
+  width: 80%;
+  background-color: #fafafa;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.detail--related__name {
+  background-color: #eee8e8;
+  padding: 10px;
+}
+.detail--related__link {
+  text-decoration: none;
+}
+.detail--login__link {
+  text-decoration: none;
+}
+
+.review {
+  background-color: #eee8e8;
+  margin-bottom: 5px;
+  padding: 10px;
+}
+.review--owner {
+  font-weight: 900;
+}
+.review--text {
+  font-style: italic;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+.h2 {
+  font-size: 35px;
+}
+
+.btn--detail {
+  background-color: #da9cb1;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+/*# sourceMappingURL=detail.css.map*/

@@ -1,0 +1,92 @@
+@import 'variables'; 
+.body {
+    margin: 0; 
+    font-family: $font-family;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+}
+.city {
+    margin: auto; 
+    font-family: $font-family;   
+    height: 20vh; 
+
+    &--head {
+        text-align: center;
+        width: 100%; 
+        font-size: 30px;  
+
+        &__bold {
+            color: $pink;
+            font-style: italic;
+            font-family: 'Playfair Display', serif;
+        }
+        @media screen and (max-width: 665px) {
+            font-size: 25px;
+        } 
+        @media screen and (max-width: 500px) {
+            font-size: 20px;
+        }
+    }  
+}
+
+.category {
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 60vh; 
+
+    &__item {
+        font-family: 'Playfair Display', serif;
+        padding: 0 0 40px 40px;
+        background-color: white;
+        height: 15px; 
+        width: 100%;
+        transition: height 2s;
+        margin-bottom: 10px;
+        &:hover {
+            width: 50vw;
+            height: 500px;
+            background-color: black;
+        }
+        & .child {
+            text-align: center;
+            font-size: 60px;
+            &--link {
+            text-decoration: none;
+            text-transform: uppercase;
+            color: black;
+            overflow: hidden;
+            @media screen and (max-width: 665px) {
+                font-size: 40px;
+            }
+            @media screen and (max-width: 500px) {
+                font-size: 30px;
+            }
+            }
+        }
+        &:hover .child--link {
+            color: white;
+        }
+        & .item {
+            visibility: hidden;
+            font-size: 20px;
+            transition: font-size 3s;
+            font-style: italic;
+            @media screen and (max-width: 665px) {
+                font-size: 10px;
+            }
+        }
+        &:hover .item {
+            width: 30vw;
+            margin: auto; 
+            visibility: visible;
+            text-align: center;
+            color: white;
+            border-right: 1px solid white;
+            border-left: 2px solid white;
+        }
+    } 
+}

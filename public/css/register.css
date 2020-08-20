@@ -1,0 +1,62 @@
+.body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 60vh;
+  font-family: "Playfair Display", serif;
+  flex-wrap: wrap;
+  margin: 0;
+}
+
+.container {
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 360px;
+  padding: 25px;
+  margin-top: 30vh;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.form-grouprow {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 8px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+.form-grouprow label {
+  font-size: 20px;
+}
+
+.btnbtn-primary {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #88d6d6;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 23px;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+
+.col-md-6 input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 5px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+/*# sourceMappingURL=register.css.map*/

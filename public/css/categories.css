@@ -1,0 +1,101 @@
+.body {
+  margin: 0;
+  font-family: "Playfair Display", serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.city {
+  margin: auto;
+  font-family: "Playfair Display", serif;
+  height: 20vh;
+}
+.city--head {
+  text-align: center;
+  width: 100%;
+  font-size: 30px;
+}
+.city--head__bold {
+  color: #da9cb1;
+  font-style: italic;
+  font-family: "Playfair Display", serif;
+}
+@media screen and (max-width: 665px) {
+  .city--head {
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .city--head {
+    font-size: 20px;
+  }
+}
+
+.category {
+  margin-top: 5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 60vh;
+}
+.category__item {
+  font-family: "Playfair Display", serif;
+  padding: 0 0 40px 40px;
+  background-color: white;
+  height: 15px;
+  width: 100%;
+  transition: height 2s;
+  margin-bottom: 10px;
+}
+.category__item:hover {
+  width: 50vw;
+  height: 500px;
+  background-color: black;
+}
+.category__item .child {
+  text-align: center;
+  font-size: 60px;
+}
+.category__item .child--link {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+  overflow: hidden;
+}
+@media screen and (max-width: 665px) {
+  .category__item .child--link {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .category__item .child--link {
+    font-size: 30px;
+  }
+}
+.category__item:hover .child--link {
+  color: white;
+}
+.category__item .item {
+  visibility: hidden;
+  font-size: 20px;
+  transition: font-size 3s;
+  font-style: italic;
+}
+@media screen and (max-width: 665px) {
+  .category__item .item {
+    font-size: 10px;
+  }
+}
+.category__item:hover .item {
+  width: 30vw;
+  margin: auto;
+  visibility: visible;
+  text-align: center;
+  color: white;
+  border-right: 1px solid white;
+  border-left: 2px solid white;
+}
+/*# sourceMappingURL=categories.css.map*/

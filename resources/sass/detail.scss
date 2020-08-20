@@ -1,0 +1,66 @@
+@import 'variables'; 
+@import 'https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300';
+
+body {
+    margin: 0;  
+}
+.detail {
+    background-color: white;
+   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+
+   padding: 30px; 
+   width: 40vw; 
+   margin: 10px auto 0 auto;
+   
+   display: flex;
+   flex-direction: column; 
+    
+
+    &--sub {
+        width: 80%;
+        background-color: #fafafa;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    &--related__name {
+        background-color: #eee8e8;
+        padding: 10px; 
+        
+    }
+    &--related__link {
+        text-decoration: none;
+    }
+    &--login__link {
+        text-decoration: none;
+    }
+}
+.review {
+    background-color: #eee8e8;
+    margin-bottom: 5px;
+    padding: 10px;
+    &--owner {
+        font-weight: 900;
+    }
+    &--text {
+        font-style: italic;
+    }
+}
+h1 {
+    font-size: 40px;
+}
+.h2 {
+    font-size: 35px;
+}
+.btn--detail {
+    background-color: $pink;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+
